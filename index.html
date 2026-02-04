@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>СпецГидроМир — магазин гидромоторов и гидронасосов</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <span class="brand-mark">СГМ</span>
+        <div>
+          <div class="brand-title">СпецГидроМир</div>
+          <div class="brand-subtitle">Гидромоторы, гидронасосы, запчасти</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#catalog">Каталог</a>
+        <a href="#services">Подбор</a>
+        <a href="#delivery">Доставка</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-cta">
+        <a class="phone" href="tel:+70000000000">+7 (000) 000-00-00</a>
+        <a class="btn primary" href="#services">Запросить подбор</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <h1>Онлайн-магазин гидравлики для сельхоз- и спецтехники</h1>
+          <p>
+            Подбор по параметрам, аналоги, складские позиции и поставка под заказ.
+            Поможем подобрать гидромоторы, гидронасосы, редукторы и комплектующие.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#catalog">Открыть каталог</a>
+            <a class="btn ghost" href="#contacts">Консультация инженера</a>
+          </div>
+          <div class="hero-badges">
+            <span>24/7 поддержка</span>
+            <span>Склад в РФ</span>
+            <span>Подбор за 30 минут</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Быстрый подбор</h3>
+          <p>Заполните параметры — получите 3 варианта с ценами и сроками.</p>
+          <form class="quick-form">
+            <input type="text" placeholder="Тип агрегата" />
+            <input type="text" placeholder="Производительность / объем" />
+            <input type="text" placeholder="Марка техники" />
+            <button class="btn primary" type="submit">Получить подбор</button>
+          </form>
+          <div class="form-status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Каталог оборудования</h2>
+          <p>Ключевые категории и быстрый переход к нужным позициям.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Гидромоторы</h3>
+            <p>Аксиально-поршневые, шестеренные, орбитальные.</p>
+            <a class="btn ghost" href="#catalog">Перейти</a>
+          </article>
+          <article class="card">
+            <h3>Гидронасосы</h3>
+            <p>Насосы высокого давления, тандемы, навесное.</p>
+            <a class="btn ghost" href="#catalog">Перейти</a>
+          </article>
+          <article class="card">
+            <h3>Редукторы и КПП</h3>
+            <p>Планетарные редукторы, поворотные узлы.</p>
+            <a class="btn ghost" href="#catalog">Перейти</a>
+          </article>
+          <article class="card">
+            <h3>Запчасти и комплектующие</h3>
+            <p>Ремкомплекты, валы, подшипники, уплотнения.</p>
+            <a class="btn ghost" href="#catalog">Перейти</a>
+          </article>
+        </div>
+        <div class="section-title catalog-title">
+          <h3>Примеры товаров (Danfoss и Bosch)</h3>
+          <p>Десять предполагаемых позиций для старта каталога.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <span class="brand-pill">Danfoss</span>
+            <h4>Гидромотор Danfoss OMS 160</h4>
+            <p>Орбитальный, 160 см³, стандартное присоединение.</p>
+            <div class="meta">Артикул: OMS160 · В наличии</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Danfoss OMS 160">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Danfoss</span>
+            <h4>Гидромотор Danfoss OMR 200</h4>
+            <p>Орбитальный, 200 см³, для приводов малого класса.</p>
+            <div class="meta">Артикул: OMR200 · Под заказ</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Danfoss OMR 200">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Danfoss</span>
+            <h4>Насос Danfoss серии 90 (PV90)</h4>
+            <p>Аксиально-поршневой, переменная подача.</p>
+            <div class="meta">Артикул: PV90 · Под заказ</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Danfoss PV90">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Danfoss</span>
+            <h4>Насос Danfoss H1P 045</h4>
+            <p>Закрытый контур, 45 см³, для мобильной техники.</p>
+            <div class="meta">Артикул: H1P045 · В наличии</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Danfoss H1P 045">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Danfoss</span>
+            <h4>Гидромотор Danfoss серии 90 (MVG)</h4>
+            <p>Аксиально-поршневой, высокая плотность мощности.</p>
+            <div class="meta">Артикул: MVG90 · Под заказ</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Danfoss MVG 90">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Bosch Rexroth</span>
+            <h4>Насос Bosch A10VSO 71</h4>
+            <p>Аксиально-поршневой, открытый контур, 71 см³.</p>
+            <div class="meta">Артикул: A10VSO71 · В наличии</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Bosch A10VSO 71">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Bosch Rexroth</span>
+            <h4>Насос Bosch A4VG 90</h4>
+            <p>Закрытый контур, переменная подача, 90 см³.</p>
+            <div class="meta">Артикул: A4VG90 · Под заказ</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Bosch A4VG 90">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Bosch Rexroth</span>
+            <h4>Гидромотор Bosch A2FM 63</h4>
+            <p>Фиксированный рабочий объем, 63 см³.</p>
+            <div class="meta">Артикул: A2FM63 · В наличии</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Bosch A2FM 63">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Bosch Rexroth</span>
+            <h4>Гидромотор Bosch A6VM 107</h4>
+            <p>Переменный объем, 107 см³, высокий момент.</p>
+            <div class="meta">Артикул: A6VM107 · Под заказ</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Bosch A6VM 107">Запросить цену</a>
+          </article>
+          <article class="product-card">
+            <span class="brand-pill">Bosch Rexroth</span>
+            <h4>Насос Bosch A11VO 130</h4>
+            <p>Открытый контур, 130 см³, для спецтехники.</p>
+            <div class="meta">Артикул: A11VO130 · Под заказ</div>
+            <a class="btn primary price-request" href="#contacts" data-product="Bosch A11VO 130">Запросить цену</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Почему выбирают нас</h2>
+        </div>
+        <div class="features">
+          <div>
+            <h4>Инженерный подбор</h4>
+            <p>Собираем аналоги и варианты замены под ваши условия эксплуатации.</p>
+          </div>
+          <div>
+            <h4>Поставки под заказ</h4>
+            <p>Работаем с ведущими брендами и доставляем в регионы.</p>
+          </div>
+          <div>
+            <h4>Сервис и ремонт</h4>
+            <p>Диагностика, восстановление узлов и консультации по установке.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Подбор по параметрам</h2>
+          <p>Отправьте данные — мы подберем 2–3 решения с ценами и сроками.</p>
+        </div>
+        <div class="service-grid">
+          <div class="service-card">
+            <h3>Для сервисных компаний</h3>
+            <ul>
+              <li>Подбор по аналогу или чертежу</li>
+              <li>Прайс на регулярные поставки</li>
+              <li>Отгрузка в день заказа</li>
+            </ul>
+            <a class="btn primary" href="#contacts">Получить прайс</a>
+          </div>
+          <div class="service-card">
+            <h3>Для агропредприятий</h3>
+            <ul>
+              <li>Подбор под модель техники</li>
+              <li>Запасные части на сезон</li>
+              <li>Складские позиции</li>
+            </ul>
+            <a class="btn primary" href="#contacts">Запросить подбор</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section account" id="account">
+      <div class="container account-grid">
+        <div>
+          <h2>Личный кабинет для оформления заказа</h2>
+          <p>
+            Клиенты смогут создавать учетную запись, сохранять корзину, видеть статусы
+            заказов и быстро повторять покупки.
+          </p>
+          <ul>
+            <li>Регистрация по email или телефону</li>
+            <li>История заказов и счета</li>
+            <li>Сохраненные аналоги и подборы</li>
+          </ul>
+        </div>
+        <div class="account-card">
+          <h3>Создать учетную запись</h3>
+          <form class="account-form">
+            <input type="text" placeholder="Имя и фамилия" required />
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Телефон" required />
+            <input type="password" placeholder="Пароль" required />
+            <button class="btn primary" type="submit">Зарегистрироваться</button>
+            <a class="btn ghost" href="#contacts">У меня уже есть аккаунт</a>
+          </form>
+          <div class="form-status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admin" id="admin">
+      <div class="container">
+        <div class="section-title">
+          <h2>Админка интернет-магазина</h2>
+          <p>Сценарии управления каталогом, заказами и клиентами.</p>
+        </div>
+        <div class="admin-grid">
+          <div class="admin-card">
+            <h3>Заказы</h3>
+            <div class="admin-kpi">
+              <div>
+                <span class="label">Новые</span>
+                <strong>12</strong>
+              </div>
+              <div>
+                <span class="label">В обработке</span>
+                <strong>8</strong>
+              </div>
+              <div>
+                <span class="label">Отгружено</span>
+                <strong>24</strong>
+              </div>
+            </div>
+            <ul class="admin-list">
+              <li>Заказ #3421 — Danfoss OMS 160 · ожидание счета</li>
+              <li>Заказ #3419 — Bosch A10VSO 71 · оплачен</li>
+              <li>Заказ #3416 — Danfoss H1P 045 · в поставке</li>
+            </ul>
+            <a class="btn primary" href="#admin-orders">Перейти к заказам</a>
+          </div>
+          <div class="admin-card">
+            <h3>Каталог</h3>
+            <p>Добавляйте новые товары, управляйте остатками и ценами.</p>
+            <div class="admin-actions">
+              <a class="btn primary" href="#admin-catalog">Добавить товар</a>
+              <a class="btn ghost" href="#admin-catalog">Импорт CSV</a>
+            </div>
+            <div class="admin-meta">
+              <span>Товаров: 128</span>
+              <span>В наличии: 54</span>
+              <span>Ожидается: 29</span>
+            </div>
+          </div>
+          <div class="admin-card">
+            <h3>Клиенты и запросы</h3>
+            <p>Обрабатывайте заявки на подбор и управляйте сегментами клиентов.</p>
+            <ul class="admin-list">
+              <li>Новый запрос — подбор насоса A4VG 90</li>
+              <li>Сервисная компания «АгроСервис» — 3 запроса</li>
+              <li>Просроченные счета — 2</li>
+            </ul>
+            <a class="btn primary" href="#admin-crm">Открыть CRM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admin-details">
+      <div class="container">
+        <div class="section-title">
+          <h2>Детализация админки</h2>
+          <p>Блоки, куда ведут действия с дашборда.</p>
+        </div>
+        <div class="admin-detail-grid">
+          <article class="admin-detail-card" id="admin-orders">
+            <h3>Раздел «Заказы»</h3>
+            <p>Фильтры по статусам, выгрузка счетов и контроль отгрузок.</p>
+            <a class="btn ghost" href="#admin">Назад к дашборду</a>
+          </article>
+          <article class="admin-detail-card" id="admin-catalog">
+            <h3>Раздел «Каталог»</h3>
+            <p>Формы для добавления товаров, управление остатками и ценами.</p>
+            <a class="btn ghost" href="#admin">Назад к дашборду</a>
+          </article>
+          <article class="admin-detail-card" id="admin-crm">
+            <h3>Раздел «CRM»</h3>
+            <p>Лента заявок и карточки клиентов с историей обращений.</p>
+            <a class="btn ghost" href="#admin">Назад к дашборду</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="delivery" class="section alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Доставка и оплата</h2>
+        </div>
+        <div class="delivery">
+          <div>
+            <h4>Оплата</h4>
+            <p>Безналичный расчет, счет-договор, работа с НДС.</p>
+          </div>
+          <div>
+            <h4>Доставка</h4>
+            <p>СДЭК, Деловые линии, собственная логистика по РФ и СНГ.</p>
+          </div>
+          <div>
+            <h4>Сроки</h4>
+            <p>Склад — 1–3 дня, поставка под заказ — 10–21 день.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Свяжитесь с нами</h2>
+          <p>Оставьте заявку, и мы свяжемся с вами в течение рабочего дня.</p>
+          <div class="contact-info">
+            <a href="tel:+70000000000">+7 (000) 000-00-00</a>
+            <a href="mailto:info@spetcgidromir.com">info@spetcgidromir.com</a>
+            <span>г. Москва, ул. Примерная, 1</span>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Форма заявки</h3>
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Имя" required />
+            <input type="tel" name="phone" placeholder="Телефон" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="text" name="product" placeholder="Интересующий товар" />
+            <textarea name="message" rows="4" placeholder="Комментарий"></textarea>
+            <button class="btn primary" type="submit">Отправить заявку</button>
+          </form>
+          <div class="form-status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <div class="brand-title">СпецГидроМир</div>
+        <p>Поставка и подбор гидравлики для сельхоз- и спецтехники.</p>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <p>+7 (000) 000-00-00</p>
+        <p>info@spetcgidromir.com</p>
+      </div>
+      <div>
+        <h4>Адрес</h4>
+        <p>г. Москва, ул. Примерная, 1</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
