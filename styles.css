@@ -310,6 +310,21 @@ a {
   gap: 10px;
 }
 
+.product-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.product-images img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #f8fafc;
+}
+
 .brand-pill {
   align-self: start;
   background: rgba(29, 78, 216, 0.12);
