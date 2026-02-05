@@ -90,6 +90,65 @@
             <a class="btn ghost" href="#catalog">Перейти</a>
           </article>
         </div>
+        <div class="catalog-switcher">
+          <div class="section-title">
+            <h3>Каталоги по типам</h3>
+            <p>Переключайтесь между страницами, чтобы быстро перейти к нужному разделу.</p>
+          </div>
+          <div class="catalog-tabs" role="tablist" aria-label="Каталоги по типам">
+            <button class="catalog-tab is-active" type="button" role="tab" aria-selected="true" data-page="motors">Гидромоторы</button>
+            <button class="catalog-tab" type="button" role="tab" aria-selected="false" data-page="pumps">Гидронасосы</button>
+            <button class="catalog-tab" type="button" role="tab" aria-selected="false" data-page="reducers">Редукторы</button>
+            <button class="catalog-tab" type="button" role="tab" aria-selected="false" data-page="parts">Запчасти</button>
+          </div>
+          <div class="catalog-pages">
+            <article class="catalog-page is-active" role="tabpanel" data-page="motors">
+              <div>
+                <h4>Гидромоторы</h4>
+                <p>Каталог с фильтрами по объему, типу корпуса и моменту. Подберем аналог под вашу технику.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 18 · В наличии: 56</span>
+                <a class="btn primary" href="#contacts">Подобрать гидромотор</a>
+              </div>
+            </article>
+            <article class="catalog-page" role="tabpanel" data-page="pumps">
+              <div>
+                <h4>Гидронасосы</h4>
+                <p>Открытый и закрытый контур, тандемы и навесные решения. Предлагаем варианты по цене и срокам.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 22 · В наличии: 42</span>
+                <a class="btn primary" href="#contacts">Подобрать насос</a>
+              </div>
+            </article>
+            <article class="catalog-page" role="tabpanel" data-page="reducers">
+              <div>
+                <h4>Редукторы и КПП</h4>
+                <p>Планетарные редукторы, поворотные узлы, приводные решения для спецтехники.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 9 · В наличии: 18</span>
+                <a class="btn primary" href="#contacts">Подобрать редуктор</a>
+              </div>
+            </article>
+            <article class="catalog-page" role="tabpanel" data-page="parts">
+              <div>
+                <h4>Запчасти и комплектующие</h4>
+                <p>Ремкомплекты, уплотнения, валы и подшипники с быстрой отгрузкой.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 34 · В наличии: 120</span>
+                <a class="btn primary" href="#contacts">Подобрать запчасти</a>
+              </div>
+            </article>
+          </div>
+          <div class="catalog-pagination" aria-label="Навигация между каталогами">
+            <button class="btn ghost catalog-prev" type="button">Предыдущая</button>
+            <span class="catalog-progress" aria-live="polite">Страница 1 из 4</span>
+            <button class="btn ghost catalog-next" type="button">Следующая</button>
+          </div>
+        </div>
         <div class="section-title catalog-title">
           <h3>Примеры товаров (Danfoss и Bosch)</h3>
           <p>Десять предполагаемых позиций для старта каталога.</p>
