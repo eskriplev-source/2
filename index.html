@@ -90,6 +90,65 @@
             <a class="btn ghost" href="#catalog">Перейти</a>
           </article>
         </div>
+        <div class="catalog-switcher">
+          <div class="section-title">
+            <h3>Каталоги по типам</h3>
+            <p>Переключайтесь между страницами, чтобы быстро перейти к нужному разделу.</p>
+          </div>
+          <div class="catalog-tabs" role="tablist" aria-label="Каталоги по типам">
+            <button class="catalog-tab is-active" type="button" role="tab" aria-selected="true" data-page="motors">Гидромоторы</button>
+            <button class="catalog-tab" type="button" role="tab" aria-selected="false" data-page="pumps">Гидронасосы</button>
+            <button class="catalog-tab" type="button" role="tab" aria-selected="false" data-page="reducers">Редукторы</button>
+            <button class="catalog-tab" type="button" role="tab" aria-selected="false" data-page="parts">Запчасти</button>
+          </div>
+          <div class="catalog-pages">
+            <article class="catalog-page is-active" role="tabpanel" data-page="motors">
+              <div>
+                <h4>Гидромоторы</h4>
+                <p>Каталог с фильтрами по объему, типу корпуса и моменту. Подберем аналог под вашу технику.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 18 · В наличии: 56</span>
+                <a class="btn primary" href="#contacts">Подобрать гидромотор</a>
+              </div>
+            </article>
+            <article class="catalog-page" role="tabpanel" data-page="pumps">
+              <div>
+                <h4>Гидронасосы</h4>
+                <p>Открытый и закрытый контур, тандемы и навесные решения. Предлагаем варианты по цене и срокам.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 22 · В наличии: 42</span>
+                <a class="btn primary" href="#contacts">Подобрать насос</a>
+              </div>
+            </article>
+            <article class="catalog-page" role="tabpanel" data-page="reducers">
+              <div>
+                <h4>Редукторы и КПП</h4>
+                <p>Планетарные редукторы, поворотные узлы, приводные решения для спецтехники.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 9 · В наличии: 18</span>
+                <a class="btn primary" href="#contacts">Подобрать редуктор</a>
+              </div>
+            </article>
+            <article class="catalog-page" role="tabpanel" data-page="parts">
+              <div>
+                <h4>Запчасти и комплектующие</h4>
+                <p>Ремкомплекты, уплотнения, валы и подшипники с быстрой отгрузкой.</p>
+              </div>
+              <div class="catalog-page-actions">
+                <span class="catalog-meta">Категорий: 34 · В наличии: 120</span>
+                <a class="btn primary" href="#contacts">Подобрать запчасти</a>
+              </div>
+            </article>
+          </div>
+          <div class="catalog-pagination" aria-label="Навигация между каталогами">
+            <button class="btn ghost catalog-prev" type="button">Предыдущая</button>
+            <span class="catalog-progress" aria-live="polite">Страница 1 из 4</span>
+            <button class="btn ghost catalog-next" type="button">Следующая</button>
+          </div>
+        </div>
         <div class="section-title catalog-title">
           <h3>Примеры товаров (Danfoss и Bosch)</h3>
           <p>Десять предполагаемых позиций для старта каталога.</p>
@@ -97,72 +156,122 @@
         <div class="product-grid">
           <article class="product-card">
             <span class="brand-pill">Danfoss</span>
-            <h4>Гидромотор Danfoss OMS 160</h4>
+            <h4><a class="product-link" href="products/danfoss-oms-160.html">Гидромотор Danfoss OMS 160</a></h4>
             <p>Орбитальный, 160 см³, стандартное присоединение.</p>
             <div class="meta">Артикул: OMS160 · В наличии</div>
+            <a class="product-images product-link" href="products/danfoss-oms-160.html">
+              <img src="images/danfoss-oms-160-1.svg" alt="Danfoss OMS 160, фото 1" loading="lazy" />
+              <img src="images/danfoss-oms-160-2.svg" alt="Danfoss OMS 160, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/danfoss-oms-160.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Danfoss OMS 160">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Danfoss</span>
-            <h4>Гидромотор Danfoss OMR 200</h4>
+            <h4><a class="product-link" href="products/danfoss-omr-200.html">Гидромотор Danfoss OMR 200</a></h4>
             <p>Орбитальный, 200 см³, для приводов малого класса.</p>
             <div class="meta">Артикул: OMR200 · Под заказ</div>
+            <a class="product-images product-link" href="products/danfoss-omr-200.html">
+              <img src="images/danfoss-omr-200-1.svg" alt="Danfoss OMR 200, фото 1" loading="lazy" />
+              <img src="images/danfoss-omr-200-2.svg" alt="Danfoss OMR 200, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/danfoss-omr-200.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Danfoss OMR 200">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Danfoss</span>
-            <h4>Насос Danfoss серии 90 (PV90)</h4>
+            <h4><a class="product-link" href="products/danfoss-pv90.html">Насос Danfoss серии 90 (PV90)</a></h4>
             <p>Аксиально-поршневой, переменная подача.</p>
             <div class="meta">Артикул: PV90 · Под заказ</div>
+            <a class="product-images product-link" href="products/danfoss-pv90.html">
+              <img src="images/danfoss-pv90-1.svg" alt="Danfoss PV90, фото 1" loading="lazy" />
+              <img src="images/danfoss-pv90-2.svg" alt="Danfoss PV90, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/danfoss-pv90.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Danfoss PV90">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Danfoss</span>
-            <h4>Насос Danfoss H1P 045</h4>
+            <h4><a class="product-link" href="products/danfoss-h1p-045.html">Насос Danfoss H1P 045</a></h4>
             <p>Закрытый контур, 45 см³, для мобильной техники.</p>
             <div class="meta">Артикул: H1P045 · В наличии</div>
+            <a class="product-images product-link" href="products/danfoss-h1p-045.html">
+              <img src="images/danfoss-h1p-045-1.svg" alt="Danfoss H1P 045, фото 1" loading="lazy" />
+              <img src="images/danfoss-h1p-045-2.svg" alt="Danfoss H1P 045, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/danfoss-h1p-045.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Danfoss H1P 045">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Danfoss</span>
-            <h4>Гидромотор Danfoss серии 90 (MVG)</h4>
+            <h4><a class="product-link" href="products/danfoss-mvg-90.html">Гидромотор Danfoss серии 90 (MVG)</a></h4>
             <p>Аксиально-поршневой, высокая плотность мощности.</p>
             <div class="meta">Артикул: MVG90 · Под заказ</div>
+            <a class="product-images product-link" href="products/danfoss-mvg-90.html">
+              <img src="images/danfoss-mvg-90-1.svg" alt="Danfoss MVG 90, фото 1" loading="lazy" />
+              <img src="images/danfoss-mvg-90-2.svg" alt="Danfoss MVG 90, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/danfoss-mvg-90.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Danfoss MVG 90">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Bosch Rexroth</span>
-            <h4>Насос Bosch A10VSO 71</h4>
+            <h4><a class="product-link" href="products/bosch-a10vso-71.html">Насос Bosch A10VSO 71</a></h4>
             <p>Аксиально-поршневой, открытый контур, 71 см³.</p>
             <div class="meta">Артикул: A10VSO71 · В наличии</div>
+            <a class="product-images product-link" href="products/bosch-a10vso-71.html">
+              <img src="images/bosch-a10vso-71-1.svg" alt="Bosch A10VSO 71, фото 1" loading="lazy" />
+              <img src="images/bosch-a10vso-71-2.svg" alt="Bosch A10VSO 71, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/bosch-a10vso-71.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Bosch A10VSO 71">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Bosch Rexroth</span>
-            <h4>Насос Bosch A4VG 90</h4>
+            <h4><a class="product-link" href="products/bosch-a4vg-90.html">Насос Bosch A4VG 90</a></h4>
             <p>Закрытый контур, переменная подача, 90 см³.</p>
             <div class="meta">Артикул: A4VG90 · Под заказ</div>
+            <a class="product-images product-link" href="products/bosch-a4vg-90.html">
+              <img src="images/bosch-a4vg-90-1.svg" alt="Bosch A4VG 90, фото 1" loading="lazy" />
+              <img src="images/bosch-a4vg-90-2.svg" alt="Bosch A4VG 90, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/bosch-a4vg-90.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Bosch A4VG 90">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Bosch Rexroth</span>
-            <h4>Гидромотор Bosch A2FM 63</h4>
+            <h4><a class="product-link" href="products/bosch-a2fm-63.html">Гидромотор Bosch A2FM 63</a></h4>
             <p>Фиксированный рабочий объем, 63 см³.</p>
             <div class="meta">Артикул: A2FM63 · В наличии</div>
+            <a class="product-images product-link" href="products/bosch-a2fm-63.html">
+              <img src="images/bosch-a2fm-63-1.svg" alt="Bosch A2FM 63, фото 1" loading="lazy" />
+              <img src="images/bosch-a2fm-63-2.svg" alt="Bosch A2FM 63, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/bosch-a2fm-63.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Bosch A2FM 63">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Bosch Rexroth</span>
-            <h4>Гидромотор Bosch A6VM 107</h4>
+            <h4><a class="product-link" href="products/bosch-a6vm-107.html">Гидромотор Bosch A6VM 107</a></h4>
             <p>Переменный объем, 107 см³, высокий момент.</p>
             <div class="meta">Артикул: A6VM107 · Под заказ</div>
+            <a class="product-images product-link" href="products/bosch-a6vm-107.html">
+              <img src="images/bosch-a6vm-107-1.svg" alt="Bosch A6VM 107, фото 1" loading="lazy" />
+              <img src="images/bosch-a6vm-107-2.svg" alt="Bosch A6VM 107, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/bosch-a6vm-107.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Bosch A6VM 107">Запросить цену</a>
           </article>
           <article class="product-card">
             <span class="brand-pill">Bosch Rexroth</span>
-            <h4>Насос Bosch A11VO 130</h4>
+            <h4><a class="product-link" href="products/bosch-a11vo-130.html">Насос Bosch A11VO 130</a></h4>
             <p>Открытый контур, 130 см³, для спецтехники.</p>
             <div class="meta">Артикул: A11VO130 · Под заказ</div>
+            <a class="product-images product-link" href="products/bosch-a11vo-130.html">
+              <img src="images/bosch-a11vo-130-1.svg" alt="Bosch A11VO 130, фото 1" loading="lazy" />
+              <img src="images/bosch-a11vo-130-2.svg" alt="Bosch A11VO 130, фото 2" loading="lazy" />
+            </a>
+            <a class="btn ghost" href="products/bosch-a11vo-130.html">Подробнее</a>
             <a class="btn primary price-request" href="#contacts" data-product="Bosch A11VO 130">Запросить цену</a>
           </article>
         </div>
@@ -301,6 +410,109 @@
               <li>Просроченные счета — 2</li>
             </ul>
             <a class="btn primary" href="#admin-crm">Открыть CRM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admin-panel" id="admin-panel">
+      <div class="container">
+        <div class="section-title">
+          <h2>Панель управления магазином</h2>
+          <p>Единый интерфейс для контроля продаж, запасов и коммуникации с клиентами.</p>
+        </div>
+        <div class="admin-panel-grid">
+          <aside class="admin-sidebar">
+            <h3>Разделы</h3>
+            <ul>
+              <li class="is-active">Обзор</li>
+              <li>Заказы</li>
+              <li>Склад</li>
+              <li>Контент</li>
+              <li>Клиенты</li>
+              <li>Маркетинг</li>
+            </ul>
+            <div class="admin-support">
+              <p>Нужна помощь?</p>
+              <a class="btn ghost" href="#contacts">Связаться с менеджером</a>
+            </div>
+          </aside>
+          <div class="admin-panel-main">
+            <div class="admin-toolbar">
+              <div>
+                <h3>Обзор за сегодня</h3>
+                <p>Ключевые показатели по заказам и наличию.</p>
+              </div>
+              <div class="admin-toolbar-actions">
+                <button class="btn ghost" type="button">Экспорт отчета</button>
+                <button class="btn primary" type="button">Добавить товар</button>
+              </div>
+            </div>
+            <div class="admin-cards">
+              <div class="admin-card highlight">
+                <span class="label">Выручка</span>
+                <strong>1 245 000 ₽</strong>
+                <span class="meta">+12% к прошлой неделе</span>
+              </div>
+              <div class="admin-card">
+                <span class="label">Новые заказы</span>
+                <strong>38</strong>
+                <span class="meta">12 требуют подтверждения</span>
+              </div>
+              <div class="admin-card">
+                <span class="label">Заявки на подбор</span>
+                <strong>16</strong>
+                <span class="meta">4 срочные</span>
+              </div>
+            </div>
+            <div class="admin-panel-row">
+              <div class="admin-table">
+                <h4>Последние заказы</h4>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>№</th>
+                      <th>Клиент</th>
+                      <th>Статус</th>
+                      <th>Сумма</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>#3521</td>
+                      <td>ООО «ГидроТех»</td>
+                      <td><span class="status ok">Оплачен</span></td>
+                      <td>240 000 ₽</td>
+                    </tr>
+                    <tr>
+                      <td>#3517</td>
+                      <td>ИП Смирнов</td>
+                      <td><span class="status warn">Ожидает счета</span></td>
+                      <td>98 500 ₽</td>
+                    </tr>
+                    <tr>
+                      <td>#3512</td>
+                      <td>АО «Механика»</td>
+                      <td><span class="status info">В сборке</span></td>
+                      <td>410 000 ₽</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="admin-quick">
+                <h4>Быстрые действия</h4>
+                <div class="admin-quick-actions">
+                  <button class="btn ghost" type="button">Проверить остатки</button>
+                  <button class="btn ghost" type="button">Создать счет</button>
+                  <button class="btn ghost" type="button">Назначить инженера</button>
+                  <button class="btn ghost" type="button">План поставок</button>
+                </div>
+                <div class="admin-alert">
+                  <strong>Сигналы склада</strong>
+                  <p>5 позиций ниже минимального остатка. Рекомендуем оформить заявку поставщику.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
