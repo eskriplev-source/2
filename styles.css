@@ -172,10 +172,19 @@ a {
   margin-top: 16px;
 }
 
-.quick-form input {
+.quick-form input,
+.quick-form select {
   padding: 10px 12px;
   border-radius: 10px;
   border: 1px solid var(--border);
+  font-family: inherit;
+}
+
+.form-field {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+  color: var(--dark);
 }
 
 .form-status {
