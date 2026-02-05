@@ -22,6 +22,28 @@ body {
   line-height: 1.6;
 }
 
+.update-badge {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 999;
+  max-width: 280px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(17, 17, 20, 0.92);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+  display: grid;
+  gap: 4px;
+}
+
+.update-badge strong {
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
 a {
   color: inherit;
 }
